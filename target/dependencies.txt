@@ -1,0 +1,28 @@
+digraph "testDemo:testDemo:jar:1.0-SNAPSHOT" { 
+	"testDemo:testDemo:jar:1.0-SNAPSHOT" -> "dom4j:dom4j:jar:1.6.1:compile" ; 
+	"testDemo:testDemo:jar:1.0-SNAPSHOT" -> "mysql:mysql-connector-java:jar:5.1.38:compile" ; 
+	"testDemo:testDemo:jar:1.0-SNAPSHOT" -> "org.testng:testng:jar:6.14.3:test" ; 
+	"testDemo:testDemo:jar:1.0-SNAPSHOT" -> "io.cucumber:cucumber-java:jar:6.9.1:compile" ; 
+	"testDemo:testDemo:jar:1.0-SNAPSHOT" -> "info.cukes:cucumber-junit:jar:1.2.5:test" ; 
+	"dom4j:dom4j:jar:1.6.1:compile" -> "xml-apis:xml-apis:jar:1.0.b2:compile" ; 
+	"org.testng:testng:jar:6.14.3:test" -> "com.beust:jcommander:jar:1.72:test" ; 
+	"org.testng:testng:jar:6.14.3:test" -> "org.apache-extras.beanshell:bsh:jar:2.0b6:test" ; 
+	"io.cucumber:cucumber-java:jar:6.9.1:compile" -> "io.cucumber:cucumber-core:jar:6.9.1:compile" ; 
+	"io.cucumber:cucumber-java:jar:6.9.1:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.0:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:cucumber-gherkin:jar:6.9.1:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:cucumber-gherkin-messages:jar:6.9.1:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:messages:jar:13.2.1:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:tag-expressions:jar:3.0.0:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:cucumber-expressions:jar:10.3.0:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:datatable:jar:3.5.0:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:cucumber-plugin:jar:6.9.1:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:docstring:jar:6.9.1:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:html-formatter:jar:9.0.0:compile" ; 
+	"io.cucumber:cucumber-core:jar:6.9.1:compile" -> "io.cucumber:create-meta:jar:2.0.4:compile" ; 
+	"info.cukes:cucumber-junit:jar:1.2.5:test" -> "info.cukes:cucumber-core:jar:1.2.5:test" ; 
+	"info.cukes:cucumber-junit:jar:1.2.5:test" -> "junit:junit:jar:4.12:test" ; 
+	"info.cukes:cucumber-core:jar:1.2.5:test" -> "info.cukes:cucumber-html:jar:0.2.3:test" ; 
+	"info.cukes:cucumber-core:jar:1.2.5:test" -> "info.cukes:cucumber-jvm-deps:jar:1.0.5:test" ; 
+	"info.cukes:cucumber-core:jar:1.2.5:test" -> "info.cukes:gherkin:jar:2.12.2:test" ; 
+	"junit:junit:jar:4.12:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+ } 

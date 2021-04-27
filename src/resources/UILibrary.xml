@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+    <!-- 主页页面 -->
+    <page name="1" activityName=".activity.MainActivity" pageDesc="主页页面">
+        <locator name="2"  by="id" value="id/navigation_my" desc="我的首页"></locator>
+        <locator name="3"  by="id" value="id/fragment_my_lemon_avatar_layout" desc="点击头像登录"></locator>
+    </page>
+
+    <!-- 登录页面 -->
+    <page name="4"  activityName=".activity.LoginActActivity" pageDesc="登录页面">
+        <locator name="5" by="id" value="id/et_mobile" desc="手机号码输入框"></locator>
+        <locator name="6"  by="id" value="id/et_password" desc="密码输入框"></locator>
+        <locator name="7"  by="id" value="id/btn_login" desc="登录按钮"></locator>
+    </page>
+</pages>

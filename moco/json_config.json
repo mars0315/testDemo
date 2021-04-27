@@ -1,0 +1,30 @@
+[
+  {
+    "description":"redirect",
+    "request":{
+      "uri":"/redirect",
+      "method":"get"
+    },
+    "redirectTo":"/index",
+    "response":{
+      "text":"test redirect"
+    }
+  },
+
+  {
+    "description":"这是首页",
+    "request":{
+      "uri": "/index",
+      "method":"get"
+    },
+    "response":{
+      "json":{
+        "msg":"欢迎进入首页",
+        "status":"200"
+      },
+      "headers":{
+        "Content-Type":"application/json;charset=utf-8"
+      }
+    }
+  }
+]
