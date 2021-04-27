@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="E:/Ideaspace/testDemo">
+    <parameter name="test1" value="testAAA"/>
+    <parameter name="test2" value="testBBB"/>
+    <parameter name="test3" value="testCCC"/>
+    <test verbose="2" preserve-order="true" name="E:/Ideaspace/testDemo" parallel="classes" thread-count="3">
         <classes>
-            <class name="com.practice.test.TestAnnotation">
-                <methods>
-                    <include name="testCase1"/>
-                    <include name="testCase2"/>
-                    <include name="testCase3"/>
-                </methods>
-            </class>
+            <class name="com.practice.test.TestAnnotation"></class>
+            <class name="com.practice.test.TestAnnotation2"></class>
         </classes>
     </test>
 </suite>
